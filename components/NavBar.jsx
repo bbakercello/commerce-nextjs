@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Logo from './Logo'
 const NavBar = () => {
   return (
-    <div>NavBar</div>
+    <div><Logo/></div>
   )
 }
 
