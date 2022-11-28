@@ -2,7 +2,7 @@ import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
-import  ImageData  from "./ImageData";
+import  ImageData  from "./images/ImageData";
 import ForwardLogo from './logos/ForwardLogo'
 import BackLogo from './logos/BackLogo'
 

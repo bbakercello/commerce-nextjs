@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
 import {Slideshow} from '../components/Slideshow'
+import Main from '../components/MainItems'
 export default function Home() {
   return (
     <div>
@@ -16,6 +17,9 @@ export default function Home() {
       <NavBar />
       <div className='p-4 bg-neutral-200'>
         <Slideshow />
+      </div>
+      <div>
+        <Main/>
       </div>
     </div>
   );
