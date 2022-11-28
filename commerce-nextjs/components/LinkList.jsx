@@ -7,10 +7,10 @@ const LinkList = () => {
     { name: "New Arrivals", link: "../pages/new-arrivals" },
   ];
   return (
-    <ul className="text-slate-500 flex pt-4">
+    <ul className="text-slate-500 flex">
       {links.map(function(element){
         return(
-            <li>{element.name}</li>
+            <li className="p-4">{element.name}</li>
         )
       })}
     </ul>
