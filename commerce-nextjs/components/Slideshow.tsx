@@ -3,6 +3,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
 import  ImageData  from "./ImageData";
+import ForwardLogo from './logos/ForwardLogo'
+import BackLogo from './logos/BackLogo'
 
 const variants = {
   enter: (direction: number) => {
@@ -78,11 +80,13 @@ export const Slideshow= () => {
           }}
         />
       </AnimatePresence>
-      <div className="next" onClick={() => paginate(1)}>
-        {"‣"}
-      </div>
-      <div className="prev" onClick={() => paginate(-1)}>
-        {"‣"}
+      <div className=" flex justify-center pt-4">
+        <div className="prev pr-2" onClick={() => paginate(-1)}>
+          <BackLogo />
+        </div>
+        <div className="next text-slate-900 pl-2" onClick={() => paginate(1)}>
+          <ForwardLogo />
+        </div>
       </div>
     </>
   );

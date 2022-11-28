@@ -7,14 +7,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>
-        Gravers.com | Mens Clothing | Official Website | Gravers
-        </title>
-        <meta name="description" content="Discover Gravers: Well Crafted Clothing. Great Fit. Crazy Good Quality. Incredibly Reasonable Prices."></meta>
+        <title>Gravers.com | Mens Clothing | Official Website | Gravers</title>
+        <meta
+          name="description"
+          content="Discover Gravers: Well Crafted Clothing. Great Fit. Crazy Good Quality. Incredibly Reasonable Prices."
+        ></meta>
       </Head>
-      <NavBar/>
-      <Slideshow/>
-
+      <NavBar />
+      <div className='p-4 bg-neutral-200'>
+        <Slideshow />
+      </div>
     </div>
-  )
+  );
 }
