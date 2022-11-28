@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
+import {Slideshow} from '../components/Slideshow'
 export default function Home() {
   return (
     <div>
@@ -11,8 +12,9 @@ export default function Home() {
         </title>
         <meta name="description" content="Discover Gravers: Well Crafted Clothing. Great Fit. Crazy Good Quality. Incredibly Reasonable Prices."></meta>
       </Head>
-      
       <NavBar/>
+      <Slideshow/>
+
     </div>
   )
 }
