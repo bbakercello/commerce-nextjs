@@ -4,12 +4,17 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <div className="w-20">
-        <Image className="w-6"
+    <div className="relative  bg-white flex items-center h-400">
+        <Image
         src='https://i.imgur.com/Q4Si1a5.png'
-        width='120'
-        height='120'
+        object-fit='contain'
+        width='160'
+        height='160'
         />
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
     </div>
   )
 }
