@@ -16,13 +16,13 @@ const NavBar = () => {
         <LinkList />
       </div>
       <div></div>
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center pl-2 pr-2">
         <SearchLogo />
       </div>
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center pl-2 pr-2">
         <SignInLogo />
       </div>
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center pl-2 pr-2">
         <CartLogo />
       </div>
     </div>
