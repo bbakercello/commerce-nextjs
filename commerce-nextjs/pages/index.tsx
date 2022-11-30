@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
 import {Slideshow} from '../components/Slideshow'
 import Main from '../components/MainItems'
+
 export default function Home() {
   return (
     <div>
