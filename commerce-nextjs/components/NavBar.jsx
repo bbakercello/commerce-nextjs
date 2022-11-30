@@ -56,22 +56,22 @@ const NavBar = () => {
                 {user.name}
               </DropdownItem>
               <DropdownItem className="dropdown-profile" tag="span">
-                <PageLink
+                <Link
                   href="/profile"
                   icon="user"
                   testId="navbar-profile-desktop"
                 >
                   Profile
-                </PageLink>
+                </Link>
               </DropdownItem>
               <DropdownItem id="qsLogoutBtn">
-                <AnchorLink
+                <Link
                   href="/api/auth/logout"
                   icon="power-off"
                   testId="navbar-logout-desktop"
                 >
                   Log out
-                </AnchorLink>
+                </Link>
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
